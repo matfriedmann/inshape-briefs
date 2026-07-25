@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Creator Brief</title>
+<style>
+  :root { --bg:#0f1013; --surface:#16171c; --fg:#f2f2f4; --muted:#a7a5b0;
+          --border:#2a2b33; --brand:#d85a30; --brand-strong:#c24d26; --brand-text:#f08a5f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:15px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+         -webkit-font-smoothing:antialiased; }
+  header { border-bottom:1px solid var(--border); padding:22px 20px; display:flex; gap:13px; }
+  .logo { width:34px; height:34px; border-radius:9px; background:var(--brand-strong); color:#fff;
+          font-weight:900; font-size:13px; display:grid; place-items:center; flex:none; }
+  h1 { font-size:19px; margin:0; letter-spacing:-0.01em; }
+  .sub { color:var(--muted); font-size:14px; margin-top:4px; max-inline-size:60ch; }
+  main { padding:20px 20px 60px; display:flex; flex-direction:column; gap:22px;
+         max-inline-size:1000px; margin:0 auto; }
+  .clip { background:var(--surface); border:1px solid var(--border); border-radius:14px;
+          padding:16px; display:grid; grid-template-columns:260px 1fr; gap:22px; }
+  video { width:100%; border-radius:11px; background:#000; display:block;
+          border:1px solid var(--border); aspect-ratio:9/16; object-fit:cover; }
+  /* On a phone the clip stays pinned while the steps scroll under it, so the
+     reference and the notes are on screen at the same time. */
+  @media (max-width:820px){
+    .clip { grid-template-columns:1fr; gap:14px; padding:14px; }
+    .player { position:sticky; top:0; z-index:2; background:var(--surface);
+              padding:6px 0 10px; margin:-6px 0 0; }
+    video { max-height:44vh; width:auto; margin:0 auto; }
+    .src { display:block; text-align:center; margin-top:6px; }
+  }
+  .src { display:inline-block; margin-top:8px; font-size:13px; color:var(--muted); text-decoration:none; }
+  .src:hover { color:var(--brand-text); }
+  .meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:14px; }
+  .handle { font-weight:700; font-size:17px; }
+  .pill { font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:.06em;
+          padding:3px 8px; border-radius:6px; background:rgba(216,90,48,.15); color:var(--brand-text); }
+  .pill.grey { background:#24252c; color:var(--muted); }
+  .kicker { font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:.09em;
+            color:var(--muted); margin:16px 0 6px; }
+  .why { max-inline-size:66ch; }
+  ol.beats { list-style:none; margin:0; padding:0; counter-reset:b; }
+  ol.beats li { display:flex; gap:10px; padding:7px 0; border-bottom:1px solid rgba(255,255,255,.05); }
+  ol.beats li:last-child { border-bottom:0; }
+  ol.beats li::before { counter-increment:b; content:counter(b) "."; color:var(--brand-text);
+                        font-variant-numeric:tabular-nums; font-weight:700; flex:none; width:20px;
+                        text-align:right; }
+  footer { color:var(--muted); font-size:13px; padding:0 20px 50px; max-inline-size:60ch;
+           margin:0 auto; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">IN</div>
+  <div>
+    <h1>Creator Brief</h1>
+    <div class="sub">Three references and how we adapt each one. Shoot vertical, real setting, normal phone.</div>
+  </div>
+</header>
+<main>
+  <section class="clip">
+    <div class="player"><video src="clips/7665774886077418765_huntergrazianoo_1784895599587.mp4" poster="clips/7665774886077418765_huntergrazianoo_1784895599587.jpg" controls preload="metadata" playsinline></video><a class="src" href="https://www.tiktok.com/@huntergrazianoo/video/7665774886077418765" target="_blank" rel="noopener">Open on TikTok ↗</a></div>
+    <div>
+      <div class="meta">
+        <span class="pill">Ref 1</span>
+        <span class="handle">@huntergrazianoo</span>
+        <span class="pill grey">29s</span>
+        <span class="pill grey">The return angle</span>
+      </div>
+    <div class="kicker">What works</div>
+    <div class="why">The &quot;definitely returning&quot; angle, which I keep seeing: &quot;why am I returning this item?&quot; It is never actually a bad thing. It is negative marketing that is positive all the way through. Not because of this benefit, not because of that one. It is because I got it when they were not on sale, and now they are. The scream on the hook calls attention and sets the fast pace.</div>
+    <div class="kicker">How we adapt it</div>
+    <ol class="beats">
+      <li>Scream.</li>
+      <li>&quot;I am definitely returning this compression tank&quot;</li>
+      <li>Benefit 1 · e.g. (&quot;But it is not because it hides the gut and the man boobs.&quot;)</li>
+      <li>Benefit 2 · e.g. (&quot;Not because it is super breathable and expandable.&quot;)</li>
+      <li>Benefit 3 · e.g. (&quot;And not because it blocks sweat in the heat.&quot;)</li>
+      <li>It is because they are cheaper now (feel free to put your own words into this)</li>
+      <li>Call to action</li>
+    </ol>
+    </div>
+  </section>
+  <section class="clip">
+    <div class="player"><video src="clips/7665934473212595487_conor.bro_1784981348670.mp4" poster="clips/7665934473212595487_conor.bro_1784981348670.jpg" controls preload="metadata" playsinline></video><a class="src" href="https://www.tiktok.com/@conor.bro/video/7665934473212595487" target="_blank" rel="noopener">Open on TikTok ↗</a></div>
+    <div>
+      <div class="meta">
+        <span class="pill">Ref 2</span>
+        <span class="handle">@conor.bro</span>
+        <span class="pill grey">19s</span>
+        <span class="pill grey">The hook</span>
+      </div>
+    <div class="kicker">What works</div>
+    <div class="why">Mainly the hook: &quot;I am not gay.&quot;</div>
+    <div class="kicker">How we adapt it</div>
+    <ol class="beats">
+      <li>&quot;I am not gay.&quot;</li>
+      <li>&quot;I just want to look better in my shirts.&quot; (Feel free to add personalization [e.g. I&#x27;m a dad, or I work at the office...] or keep it generic, whatever feels better)</li>
+      <li>Keep going straight into the benefits. (Usual pitch: hides gut, man boobs, breathable...)</li>
+      <li>Call to action</li>
+    </ol>
+    </div>
+  </section>
+  <section class="clip">
+    <div class="player"><video src="clips/7658491278878985503_2truedad_1783170547890.mp4" poster="clips/7658491278878985503_2truedad_1783170547890.jpg" controls preload="metadata" playsinline></video><a class="src" href="https://www.tiktok.com/@2truedad/video/7658491278878985503" target="_blank" rel="noopener">Open on TikTok ↗</a></div>
+    <div>
+      <div class="meta">
+        <span class="pill">Ref 3</span>
+        <span class="handle">@2truedad</span>
+        <span class="pill grey">38s</span>
+        <span class="pill grey">Inside the car</span>
+      </div>
+    <div class="kicker">What works</div>
+    <div class="why">We never had any video inside the car, so this would be awesome to have. Mainly for the sweat block angle.</div>
+    <div class="kicker">How we adapt it</div>
+    <ol class="beats">
+      <li>If every time you go out in the summer you look like this</li>
+      <li>Point at the sweaty armpit, or the sweaty chest, or the sweaty back.</li>
+      <li>&quot;This is your solution for this summer.&quot;</li>
+      <li>Keep going straight into the benefits. (Usual pitch emphasizing the sweat block first, then hides gut, man boobs, breathable...)</li>
+      <li>Call to action</li>
+    </ol>
+    </div>
+  </section>
+</main>
+<footer>Tap any video to watch it. Questions on any of these, just message me.</footer>
+</body>
+</html>
